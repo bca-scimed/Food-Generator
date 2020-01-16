@@ -1,0 +1,46 @@
+.jumbotron {
+    background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+body {
+  background-image: url("carrotonion\ background.jpeg");
+  background-size: 120rem;
+}
+
+.btn {
+  align-content: center;
+  font-size: large;
+  
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  font-size: large;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 10px solid black;
+  opacity: 0.8;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#foodButton {
+  background-color: rgb(24, 56, 161);
+  color: yellow;
+  text-align: center;
+  padding-left: 5px;
+  margin-left: 20rem;
+  margin-bottom: 2rem;  
+}
